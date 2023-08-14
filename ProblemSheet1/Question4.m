@@ -2,6 +2,7 @@
 
 %% a>
 x = [0:(pi/10):pi];
+% [(starting point) : (interval/gap) : (ending point)]
 
 %% b>
 y = cos(x);
