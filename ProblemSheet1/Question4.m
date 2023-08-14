@@ -9,10 +9,12 @@ y = cos(x);
 z = exp(-x);
 
 figure(1);
-plot(x,y,LineStyle='-', Color='g', Marker='+', LineWidth=1);
+plot(x,y,LineStyle='-', Color='g', Marker='+', LineWidth=1);  
+% '-' is for solid line
 grid on;
 hold on;
 plot(x, z,LineStyle=':', Color='c', Marker='+', LineWidth=1);
+% ':' is for dotted line
 legend('y = cos(x)','z = exp(-x)');
 
 hold off;
