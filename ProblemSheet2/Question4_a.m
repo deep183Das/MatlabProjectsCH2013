@@ -1,4 +1,4 @@
-%% Root for 4 degree polynomial : Question_4_a
+%% Root for 4th order polynomial : Question_4_a
 
 % defiing the parameters
 tolerance = 1e-4;
