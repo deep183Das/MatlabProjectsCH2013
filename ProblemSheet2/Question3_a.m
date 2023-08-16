@@ -1,9 +1,13 @@
+%% The Colebrook and White equation : Question 3_a
+
 % Given parameters
 epsilon = 0.5e-3;  % Surface roughness in meters
-hydraulic_diameter = 0.1;  % Hydraulic diameter in meters
+hydraulic_diameter = 0.1;  % Hydraulic diameter in meters (Dh)
 
-%velocity_range = linspace(0.0892, 8.92, 100);  % Velocity range in m/s
+% velocity_range = linspace(0.0892, 8.92, 100);  % Velocity range in m/s
+%% ********* or *********
 velocity_range = linspace(10^4, 10^6, 100);  % Velocity range in m/s
+%% now these values don't have to be multiplied by the re_factor to get reynolds number, instead use them directly
 
 density = 997;  % Density of water in kg/m^3
 viscosity = 0.0008891;  % Viscosity of water in kg/(m*s)
@@ -46,5 +50,6 @@ for i = 1:100
     end
 end
 
-% Plot for the friction factor values
+
+%& Plot for the friction factor values
 plot(velocity_range,ffsol,LineStyle="-",Color='r',LineWidth=1);
