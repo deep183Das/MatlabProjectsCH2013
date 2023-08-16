@@ -1,5 +1,6 @@
-%% Question_4_a
+%% Root for 4 degree polynomial : Question_4_a
 
+% defiing the parameters
 tolerance = 1e-4;
 error = 1;  % initial approximated relative error
 x0 = 0; % initial guess value
@@ -19,6 +20,7 @@ for iter = 1: max_iteration
         break;
     end
 end
+
 %% new initial guess value
 x1 = 4;
 for iter = 1: max_iteration
@@ -34,6 +36,7 @@ end
 
 %% using two different guess values, we got all the roots of this function
 %% from the plot it's clear that x = 1 has multiplicity = 3
+
 %% plot for y vs x
 x = linspace(0,6,500);
 y = x.^4 - 6.*(x.^3) + 12.*(x.^2) - 10.*x + 3;
