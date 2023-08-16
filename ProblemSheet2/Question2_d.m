@@ -4,18 +4,16 @@ tol = 10^(-4);
 del = 0.53;
 epsilon = 0.245;
 arr = [];
-%xl = round(2.4526, 2, "significant");
-%xu = round(6.6043, 2, "significant");
-xl = 3;
-xu = 6;
-% as 3 > lowest root , 6 < biggest root 
 
-% initial guess 
-xr = 0;
-% initial approximated error
-ea = 1;
-% no. of iterations
-iter = 0;
+% xl = round(2.4526, 2, "significant");
+% xu = round(6.6043, 2, "significant");
+%% or can use any values as follows : 
+xl = 3;    % as (lowest root < 3)
+xu = 6;    % as (6 < biggest root) 
+
+xr = 0;    % initial guess 
+ea = 1;    % initial approximated error
+iter = 0;  % no. of iterations
 
 while(ea > tol)
 
@@ -33,6 +31,8 @@ while(ea > tol)
 
     ea = abs(x - xr);
     xr = x;
+    
+    % adding the roots into the array
     arr = [arr, xr];
 
 end
