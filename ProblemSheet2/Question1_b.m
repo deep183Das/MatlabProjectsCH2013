@@ -14,8 +14,6 @@ max_iteration = 10;
 % loop for fnding the root
 x = x0;
 for iter = 1:max_iteration
-    
-
     f_x = func(x);
     f_prime_x = func_derivative(x);
 
