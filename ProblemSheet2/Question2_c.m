@@ -14,7 +14,8 @@ tol = 1e-4;
 max_iteration = 100;
 
 roots = [0, 0, 0];
-% loop for fnding the root
+
+%% iterating for getting better and precise value of roots
 x = x0;
 for iter = 1:max_iteration
     f_x = func(x);
@@ -25,6 +26,7 @@ for iter = 1:max_iteration
         roots(1) = x;
     end
 end
+
 %% for the second root, new guess value
 x = 4;
 for iter = 1:max_iteration
@@ -36,6 +38,7 @@ for iter = 1:max_iteration
         roots(2) = x;
     end
 end
+
 %% for the third root, new guess value
 x = 6;
 for iter = 1:max_iteration
