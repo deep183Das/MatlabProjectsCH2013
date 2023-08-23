@@ -26,6 +26,7 @@ while (ea >= tol) && (iter < max_iteration)
     ea = abs(ea);
 end
 roots(1) = x0;
+
 %% for the second root, new guess value
 x = 4.33;
 iter = 0;
@@ -39,6 +40,7 @@ while (ea >= tol) && (iter < max_iteration)
     ea = abs(ea);
 end
 roots(2) = x;
+
 %% for the third root, new guess value
 x = 7.22;
 iter = 0;
