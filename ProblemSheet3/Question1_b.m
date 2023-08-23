@@ -32,5 +32,3 @@ while (iter < max_iteration)
     end
     xr = x;
 end
-
-x0 = 0;
