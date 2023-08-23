@@ -1,0 +1,1 @@
+This session had taken place on 23rd August, 2023. "Regula-Falsi" and "Fixed Point Iteration" methods are used to find roots of complicated functions. For "Fixed Point Iteration" the guess values must be too close to the actual root values , otherwise it'll jump to other roots. That means in this method the guess values are to be taken sophisticatedly.
