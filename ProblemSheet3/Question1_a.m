@@ -34,5 +34,3 @@ while (ea >= tol) && (iter < max_iteration)
 end
 
 root = x;
-
-x0 = 0;
