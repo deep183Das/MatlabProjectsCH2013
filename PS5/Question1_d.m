@@ -15,6 +15,8 @@ reactiondata.pre_exponential_factor = k0;
 reactiondata.activation_energy = Eact;
 
 r = reactionrate1(T,C1,C2,reactiondata);
+
+% need to collect all the columns of each row
 rate1 = r(1,:);
 rate2 = r(2,:);
 
@@ -31,4 +33,3 @@ function r = reactionrate1(T,C1,C2,reactiondata)
     r2 = (reactiondata.pre_exponential_factor(2)).*(exp((-reactiondata.activation_energy(2))./(R.*T))).*C1.*C2;
     r = [r1; r2];
 end
-
