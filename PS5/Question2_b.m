@@ -5,7 +5,6 @@ x0 = [-2 100];
 options = optimset('Maxiter',10,'TolFun',1e-6,'Display','Iter');
 
 [x, fval, exitflag, output, jacobian] = fsolve(@equations, x0, options);
-
 iterations = output.iterations;
 
 solution2 = struct('converged_x',x(1),'converged_y',x(2),'first_function_value',fval(1),'second_function_value',fval(2),'jacobian_convergence_value',jacobian,'exit_flag',exitflag,'number_of_iterations',iterations);
