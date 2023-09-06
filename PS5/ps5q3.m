@@ -1,7 +1,10 @@
+%% PS5 Q3 : finding truncation error
+
 true_value = exp(2);
 orders = 0:5;
 approximations = zeros(size(orders));
 percent_errors = zeros(size(orders));
+
 for i = 1:length(orders)
     n = orders(i);
     approximation = 0;
