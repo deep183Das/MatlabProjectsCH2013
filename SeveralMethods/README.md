@@ -1,7 +1,6 @@
 Here various methods are discussed for how to solve an equation using "fsolve" or other way around. 
 <br/>
 <br/>
-
 1>> *func01* : how to create a local function to evaluate the values of interest by solving a certain expression  <br/>
 2>> *func02* : same as *func01*, but here for a range of given values, the corresponding values of the expression are calculated <br/>
 3>> *func03* : passing a matrix(containing range of values) to the local function and here ".(dot)" operator is used on the vector  <br />
