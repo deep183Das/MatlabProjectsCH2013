@@ -15,7 +15,7 @@ A1CH3_C7H9 = variable(:,8);
 BIOOIL  = variable(:,9);         
 rho = variable(:,10);
 
-%% calling the function to plot the specified plots
+%% calling the "function_file" to plot the specified plots
 % b>
 x_biooil = [];
 x_co = [];
