@@ -1,3 +1,4 @@
+% using "%" will prevent the function to show error as these lines will be considered as comments by MATLAB
 %       time         npart          tres             T             Z            N2            CO    A1CH3-C7H9        BIOOIL           rho
  0.00000E+00             1   0.00000E+00   1.07300E+03   1.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00   1.00000E+00   1.98000E-01
  5.00000E-04             1   0.00000E+00   1.07300E+03   1.00000E+00   0.00000E+00   1.43504E-04   4.24829E-03   9.95608E-01   1.93814E-01
