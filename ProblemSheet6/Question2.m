@@ -21,7 +21,6 @@ ffinal2 = fval2;
 iter2 = output2.iterations;
 
 %% d> using MATLAB's default tolerances
-
 % for "fzero"
 [x3, fval3, exitflag3, output3] = fzero(p, x0);
 xfinal3 = x3;
@@ -33,4 +32,4 @@ xfinal4 = x4;
 ffinal4 = fval4;
 iter4 = output4.iterations;
 
-% roots values are changing in precision, here the roots are more precise.
+% roots values are changing in precision, here using MATLAB's default tolerance, the roots are more precise.
