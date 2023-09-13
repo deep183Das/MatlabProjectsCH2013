@@ -3,13 +3,11 @@
 h = 3600; % 1h = 3600s
 %% a>
 T1h = time(h*10);
-% accumulated error after 1h
-error1h = 3600 - T1h;
+error1h = 3600 - T1h;    % accumulated error after 1h
 
 %% b>
 T100h = time(h*100*10);
-% accumulated error after 100h
-error100h = 360000 - T100h;
+error100h = 360000 - T100h;    % accumulated error after 100h
 
 %% c>
 time_hour = [1:100];
@@ -35,4 +33,3 @@ function T = time(computation_val)
     end
     T = t;
 end
-
