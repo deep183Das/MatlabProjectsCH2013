@@ -1,0 +1,43 @@
+
+ BLOCK:  B1       MODEL: PUMP            
+ ----------------------------
+   INLET STREAM:          SUCTION 
+   OUTLET STREAM:         DISCHARG
+   PROPERTY OPTION SET:   LK-PLOCK  LEE-KESLER-PLOCKER EQUATION OF STATE        
+
+                      ***  MASS AND ENERGY BALANCE  ***
+                                    IN              OUT        RELATIVE DIFF.
+    TOTAL BALANCE
+       MOLE(LBMOL/HR)            70.0000         70.0000         0.00000    
+       MASS(LB/HR   )            3815.47         3815.47         0.00000    
+       ENTHALPY(BTU/HR  )      -0.247050E+07   -0.246875E+07   -0.705697E-03
+
+                      ***  CO2 EQUIVALENT SUMMARY ***
+    FEED STREAMS CO2E             40.1069      LB/HR           
+    PRODUCT STREAMS CO2E          40.1069      LB/HR           
+    NET STREAMS CO2E PRODUCTION   0.00000      LB/HR           
+    UTILITIES CO2E PRODUCTION     0.00000      LB/HR           
+    TOTAL CO2E PRODUCTION         0.00000      LB/HR           
+
+                          ***  INPUT DATA  ***
+    EQUIPMENT TYPE: PUMP    
+    OUTLET PRESSURE  PSIA                                 100.000      
+    PUMP EFFICIENCY                                         0.80000    
+    DRIVER EFFICIENCY                                       1.00000    
+
+    FLASH SPECIFICATIONS:
+    LIQUID PHASE CALCULATION
+    NO FLASH PERFORMED
+    MAXIMUM NUMBER OF ITERATIONS                            30
+    TOLERANCE                                               0.000100000
+
+                           ***  RESULTS  ***
+    VOLUMETRIC FLOW RATE  CUFT/HR                         100.495      
+    PRESSURE CHANGE  PSI                                   75.0000     
+    NPSH AVAILABLE   FT-LBF/LB                              3.31669    
+    FLUID POWER  HP                                         0.54815    
+    BRAKE POWER  HP                                         0.68519    
+    ELECTRICITY  KW                                         0.51095    
+    PUMP EFFICIENCY USED                                    0.80000    
+    NET WORK REQUIRED  HP                                   0.68519    
+    HEAD DEVELOPED FT-LBF/LB                              284.458      
